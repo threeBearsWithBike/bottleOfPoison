@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
+import { useState } from 'react';
+import Mouse from './Mouse';
+import Range from './Range';
 import './App.css';
 
+
+
 function App() {
+  const [mouse, setMouse] = useState([0,0,0,0,0,0,0,0,0,0]);
+  const mouses = mouse.map((mouse, idx) => <Mouse key={ idx } mouse={ mouse } />);
+
+  const print = (value) => {
+    setMouse(value);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>999 бутылок вина + 1 бутылка с ядом</h1>
+      <div className='App-mouses'>{ mouses }</div>
+      <Range print={print}/>
     </div>
   );
 }

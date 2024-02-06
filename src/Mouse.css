@@ -1,0 +1,11 @@
+.Mouse {
+    width: 64px;
+    margin: 5px;
+    border: none;
+}
+
+.Mouse-dead {
+    width: 64px;
+    margin: 5px;
+    border-bottom: 10px solid red;
+}
