@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bottleOfPoison/static/css/main.23dd272f.css",
+    "main.js": "/bottleOfPoison/static/js/main.9577b666.js",
+    "static/js/592.30ca005d.chunk.js": "/bottleOfPoison/static/js/592.30ca005d.chunk.js",
+    "index.html": "/bottleOfPoison/index.html",
+    "main.23dd272f.css.map": "/bottleOfPoison/static/css/main.23dd272f.css.map",
+    "main.9577b666.js.map": "/bottleOfPoison/static/js/main.9577b666.js.map",
+    "592.30ca005d.chunk.js.map": "/bottleOfPoison/static/js/592.30ca005d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23dd272f.css",
+    "static/js/main.9577b666.js"
+  ]
+}
